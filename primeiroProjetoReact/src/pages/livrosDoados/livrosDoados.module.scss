@@ -31,3 +31,17 @@
 
     }
 }
+
+@media (max-width: 780px ){
+
+    .containerCards{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+
+
+        section{
+            width: 60%;
+        }
+    }
+}

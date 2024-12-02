@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+   
 
     p{
         font-size: 24px;
@@ -46,4 +47,24 @@ form{
     background-color: #005695;
     color: #fff;
     cursor: pointer;
+    padding: 0;
+}
+
+@media (max-width: 780px){
+    .queroDoarSection{
+        height: 100vh;
+
+        p{
+            font-size: 18px;
+            width: 70%;
+            text-align: center;
+        }
+    }
+    form{
+        width: 90%;
+
+        h2{
+            font-size: 20px;
+        }
+    }
 }

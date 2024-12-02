@@ -18,7 +18,7 @@ export default function Footer(){
                     <a href=""><img src={logoInstagram} alt="Icone Instagram" /></a>
                 </nav>
             </section>
-            <section className={s.direitosAutorais}>
+            <section className={s.copyright}>
                 <p>Layout desenvolvido pela Vai Na Web para fins educativos - 2024  </p>
 
             </section>
