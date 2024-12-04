@@ -1,7 +1,7 @@
 import logoLivro from "../../assets/logoLivro.png"
 import lupaHeader from "../../assets/lupaHeader.png"
 import { BrowserRouter, Routes, Route, Link} from 'react-router-dom'
-import Inicio from '../../pages/Inicio/Inicio'
+import Inicio from '../../pages/inicio/Inicio'
 import LivrosDoados from '../../pages/LivrosDoados/LivrosDoados'
 import QueroDoar from '../../pages/QueroDoar/QueroDoar'
 import s from './header.module.scss'
