@@ -8,8 +8,8 @@ export default function LivrosDoados(){
 const [livros,setLivros] = useState([])
 
     const puxarLivros = async() =>{
-        const resposta = await axios.get("https://vainaapi.onrender.com/livros")
-        setLivros(resposta.data.livros)
+        const resposta = await axios.get("https://api-t1.onrender.com/livros")
+        setLivros(resposta.data)
     }
     useEffect(()=>{
         puxarLivros()

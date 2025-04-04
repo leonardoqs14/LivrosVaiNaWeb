@@ -34,6 +34,7 @@ export default function QueroDoar(){
             image_url
         }
         await axios.post("https://api-t1.onrender.com/doar",dadosPEnviar)
+        alert("Obrigado, seu livro foi cadastrado com sucessso!")
 
     }
 
